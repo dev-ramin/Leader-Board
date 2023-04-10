@@ -1,9 +1,31 @@
-.top-players{
+/* Fonts  */
+*{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+/* Utilities  */
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+}
+main{
+    display: flex;
+}
+.section-title{
+    color: #562EFF;
+    position: absolute;
+    width: 125px;
+    height: 36px;
+    left: 318px;
+    top: 163px;
+}
+.players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .player{
     display: flex;
+    align-items: center;
 }
 .player img{
     width: 56px;
